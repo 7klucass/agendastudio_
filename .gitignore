@@ -1,0 +1,23 @@
+# Segredos e dados locais: nunca publicar estes arquivos.
+.env
+.env.*
+!.env.example
+node_modules/
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.pem
+*.key
+*.p12
+*.pfx
+coverage/
+.nyc_output/
+private/
+*.zip
+
+# Generated Vercel files and local credentials
+.vercel/
+node_modules/
+*.log
